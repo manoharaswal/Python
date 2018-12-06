@@ -1,0 +1,5 @@
+fp = open("python.txt","w+")
+fp.write("Manohar Singh Aswal")
+fp.seek(0)
+print(fp.read())
+fp.close()
